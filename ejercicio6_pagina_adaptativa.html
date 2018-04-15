@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Página Adaptativa</title>
+	<style>
+		@media(max-width: 480px) {
+			.left{
+				display: none;
+			}
+		}
+
+		@media(min-width: 481px) and (max-width: 768px) {
+			.left{
+				width: 120px;
+				box-sizing: border-box;
+				padding: 20px;
+				float: left;
+				font-size: 0.8em;
+			}
+		}
+
+		.main{
+			width: 360px;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="left">
+		<h1>Lorem Secreto !!!</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ad earum illum sunt ullam officia delectus, fugit velit alias ducimus, sint expedita. Voluptates quasi adipisci, minus facere nobis molestiae hic!</p>
+	</div>
+	<div class="main">
+		<h1>Lorem</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam officia, molestiae possimus ab facere labore id sunt quae asperiores.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam officia, molestiae possimus ab facere labore id sunt quae asperiores.</p>
+	</div>
+
+</body>
+</html>

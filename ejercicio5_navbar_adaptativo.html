@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Navbar adaptativo</title>
+</head>
+<style>
+	nav ul{
+		display: inline-block;
+	}
+	nav ul li{
+		display: inline-block;
+	}
+
+	@media(min-width: 400px) and (max-width: 600px) {
+		nav{
+			width: 200px;
+			margin: auto;
+			background-color: green;
+		}
+
+		.optative{
+			display: none;
+		}
+	}
+
+	
+</style>
+<body>
+	<nav>
+		<ul>
+			<li>Opción 1</li>
+			<li>Opción 2</li>
+			<li>Opción 3</li>
+			<li>Opción 4</li>
+			<li class="optative">Opción 5</li>
+			<li class="optative">Opción 6</li>
+		</ul>
+	</nav>
+</body>
+</html>
